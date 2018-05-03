@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Mobiles :: w3layouts</title>
+	<title>JobsForNepal<title>
 	<link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 	<link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -196,13 +196,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				
 				<div class="ads-grid">
 					<div class="side-bar col-md-3">
-						<div class="search-hotel">
+						<!-- <div class="search-hotel">
 							<h3 class="agileits-sear-head">Name contains</h3>
 							<form>
 								<input type="text" value="Product name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Product name...';}" required="">
 								<input type="submit" value=" ">
 							</form>
-						</div>
+						</div> -->
 					</div>
 					<div class="agileinfo-ads-display col-md-9">
 						<div class="wrapper">					

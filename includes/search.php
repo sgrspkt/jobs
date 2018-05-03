@@ -1,6 +1,6 @@
 <div class="agileits_search">
 					<form action="#" method="post">
-						<input name="Search" type="text" placeholder="How can we help you today?" required="" />
+						
 						<select id="agileinfo_search" name="agileinfo_search" required="" >
 							<option value="">Job Portals</option>
 							<option value="portals_type.php?portal=jobsnepal">Jobs Nepal</option>
