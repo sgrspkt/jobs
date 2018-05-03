@@ -108,6 +108,28 @@ class RecentKumariJobs extends Connection{
 				//die('data uptodate');
 
 			}else{
+				$jobs[$i]['title'] = trim($jobs[$i]['title']);
+				$jobs[$i]['title'] = htmlspecialchars($jobs[$i]['title']);
+				$jobs[$i]['title'] = stripslashes($jobs[$i]['title']);
+				
+				$jobs[$i]['url'] = trim($jobs[$i]['url']);
+				$jobs[$i]['url'] = htmlspecialchars($jobs[$i]['url']);
+				$jobs[$i]['url'] = stripslashes($jobs[$i]['url']);
+
+				$jobs[$i]['company'] = trim($jobs[$i]['company']);
+				$jobs[$i]['company'] = htmlspecialchars($jobs[$i]['company']);
+				$jobs[$i]['company'] = stripslashes($jobs[$i]['company']);
+
+				$jobs[$i]['deadline'] = trim($jobs[$i]['deadline']);
+				$jobs[$i]['deadline'] = htmlspecialchars($jobs[$i]['deadline']);
+				$jobs[$i]['deadline'] = stripslashes($jobs[$i]['deadline']);
+
+				$jobs[$i]['time'] = trim($jobs[$i]['time']);
+				$jobs[$i]['time'] = htmlspecialchars($jobs[$i]['time']);
+				$jobs[$i]['time'] = stripslashes($jobs[$i]['time']);
+
+
+
 				$sql = $db->prepare("INSERT INTO tbl_kumarijob(`category`,`title`,`url`,`logo`,`company`,`deadline`,`time`) VALUES ('recent','".$jobs[$i]['title']."','".$jobs[$i]['url']."',' ','".$jobs[$i]['company']."','".$jobs[$i]['deadline']."','".$jobs[$i]['time']."')");
 
                         // inserting a record

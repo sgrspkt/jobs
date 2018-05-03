@@ -18,11 +18,11 @@ $viewrecentramrojob = $recentramroObj->addRecentRamroJobs();
 	$hotramroObj = new HotRamroJobs();
 	$viewhotramrojob = $hotramroObj->addHotRamroJobs();
 
-	$meroObj = new RecentKumariJobs();
-	$viewrecentjob = $meroObj->addRecentKumariJobs();
+	//$meroObj = new RecentKumariJobs();
+	//$viewrecentjob = $meroObj->addRecentKumariJobs();
 
-	$hotKumariObj = new HotKumariJobs();
-	$viewhotkumarijob = $hotKumariObj->addHotKumariJobs();
+	//$hotKumariObj = new HotKumariJobs();
+	//$viewhotkumarijob = $hotKumariObj->addHotKumariJobs();
 
 	/*$meroObj = new RecentMeroCareer();
 	$viewrecentjob = $meroObj->addMeroCareer();*/
@@ -37,5 +37,6 @@ $viewrecentramrojob = $recentramroObj->addRecentRamroJobs();
 
 */
 //var_dump($views);
+	echo "Data Updated";
 	?>
 	
